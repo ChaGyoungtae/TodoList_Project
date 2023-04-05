@@ -7,6 +7,8 @@ target 'TodoList_Project' do
 pod 'Firebase/Core'
 pod 'Firebase/Database'
 pod 'Firebase/Auth'
+pod 'FSCalendar'
+pod 'SideMenu'
   # Pods for TodoList_Project
 
 end
