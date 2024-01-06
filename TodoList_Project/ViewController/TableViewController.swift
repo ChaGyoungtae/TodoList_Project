@@ -19,9 +19,9 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
     //투두를 저장할 배열
     var memoTitle = [String?]()
     // DB 저장 경로
-    var id = ""
-    var date = ""
-    var point = 10
+    var id = "" // 아이디
+    var date = "" // 날짜
+    var point = 10 // 포인트
     
     //DB에 저장되어있는 데이터들을 가져올때 사용할 변수들
     var titleDB : [String] = []
