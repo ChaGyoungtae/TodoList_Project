@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2d4a00812f637ab2942758eacc8be4bc71ffe92fb16b7882c8e45c37f4bcbf91
-size 816
+//
+//  FSCalendar.swift
+//  TodoList_Project
+//
+//  Created by 차경태 on 2023/03/31.
+//
+
+import UIKit
+
+class FSCalendar: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+    func Calendar(){
+        let preVC = self.presentingViewController
+        guard let vc = preVC as? CalenderViewController else { return }
+        vc.FSCalendar.scope = .month
+    }
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
